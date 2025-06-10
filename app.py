@@ -6,3 +6,10 @@ def subs(a,b):
 
 def mult(a,b):
     return a * b
+
+def div(a,b):
+    if b == 0:
+        return "Division by zero is not allowed"
+    return a / b
+
+  
